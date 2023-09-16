@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/Final.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/about_me.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/impact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/sphere.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/team.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/vid1.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
