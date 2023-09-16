@@ -1,0 +1,90 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: blue;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Main content styles */
+.translate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+.translate-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+}
+
+/* Animation styles */
+.rotating-hands {
+  /* Add your rotating hands styling and animation here */
+}
+
+.box {
+  position: relative;
+  padding-top: 150px;
+  padding-left: 50px;
+  border-radius: 50px;
+  height: 450px; /* Increased height */
+  background-color: ghostwhite;
+  color: blue;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.circle-icon {
+  position: absolute;
+
+  top: 30px;
+  left: 40px;
+  width: 100px; /* Increased size */
+  height: 100px; /* Increased size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover effect for the boxes */
+.box:hover {
+  transform: scale(1.05); /* Slight scaling for a "flowy" feel */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+}
+
+/* Scroll effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.box {
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.5s; /* Delay to ensure user has started scrolling */
+  opacity: 0; /* Initially hidden */
+}
