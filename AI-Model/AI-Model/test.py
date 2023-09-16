@@ -26,7 +26,7 @@ def can_display_error(error_key):
 
 
 cap = cv2.VideoCapture(0)
-detector = HandDetector(maxHands=2)
+detector = HandDetector(maxHands=1)
 classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 
 offset = 20
@@ -41,26 +41,26 @@ labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", 
           "X", "Y", "Z"]
 captured_chars = []
 
-app = Flask(__name__)
+# app = Flask(__name__)
+#
+#
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
+#
+#
+# @app.route('/get_captured_chars', methods=['GET'])
+# def get_captured_chars():
+#     return jsonify({"captured_chars": captured_chars})
+#
+#
+# @app.route('/get_audio', methods=['GET'])
+# def get_audio():
+#     return send_file("captured_audio.mp3", as_attachment=True)
 
 
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-
-@app.route('/get_captured_chars', methods=['GET'])
-def get_captured_chars():
-    return jsonify({"captured_chars": captured_chars})
-
-
-@app.route('/get_audio', methods=['GET'])
-def get_audio():
-    return send_file("captured_audio.mp3", as_attachment=True)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
 
 while True:
     try:
@@ -73,7 +73,8 @@ while True:
         imgOutput = img.copy()
         hands, img = detector.findHands(img)
 
-        if len(hands) == 2:
+        key = cv2.waitKey(1)
+        if key != -1:
             break
 
         if hands:
