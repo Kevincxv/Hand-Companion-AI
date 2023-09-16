@@ -4,35 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/main_page.js" afterDir="false" />
+    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/craco.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/tailwind.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +49,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2VSgYyYqKAFFforR2JvSfzAk9WK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,6 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,5 +94,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
   </component>
 </project>
