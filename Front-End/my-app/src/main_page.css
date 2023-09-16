@@ -83,19 +83,30 @@ nav a {
     opacity: 0;
 }
 
-#about-section::before {
-    content: "";
-    display: block;
-    background: url('wave.svg') no-repeat top center;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    top: -100px;
-    left: 0;
-    transform: rotate(180deg);
-}
-
 #about-section {
     background-color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .app-header {
+        flex-direction: column;
+    }
+
+    .translate-section {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .box {
+        padding-left: 20px;
+        height: auto;
+    }
+
+    .circle-icon {
+        left: 20px;
+    }
+}
+.min-height{
+    min-height: 100px;
 }

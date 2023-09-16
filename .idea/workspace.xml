@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/main_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/main_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/main_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/main_page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +29,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -64,23 +52,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "main2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End\my-app\src" />
+      <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End\my-app\src\main_page" />
       <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End" />
     </key>
   </component>
@@ -92,11 +83,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694834947343</updated>
-      <workItem from="1694834949588" duration="12934000" />
+      <workItem from="1694834949588" duration="28301000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

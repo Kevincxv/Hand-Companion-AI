@@ -2,22 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.videoStyles{
+  position: absolute;
+  padding: 2%;
+  width: 50vw;
+  height: 65vh;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.transcriptStyles{
+  border-width: 3px;
+  font-size: 3vw;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  padding: 2%;
+  width: 30vw;
+  height: 65vh;
+  z-index: 1;
+  resize: none;
+}
+
+.playButtonStyles {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1% 2%;
+  font-size: 1.5vw;
+  border-radius: 5px;
+  cursor: pointer;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d2ecfd;
 }
 
 .App{
-  background-color: #282c34;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -32,3 +56,20 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+   textarea {
+    font-size: 5vw;
+    width: 80vw;
+    right: 10%;
+  }
+}
+
+button {
+  background-color: #267ed9;
+  transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0d9bf2;
+}
+

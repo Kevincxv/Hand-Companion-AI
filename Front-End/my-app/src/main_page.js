@@ -1,17 +1,15 @@
+import './main_page.css';
 import React from 'react';
 import { FaMoon, FaSun, FaCog, FaWrench, FaLayerGroup, FaMagic } from 'react-icons/fa';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import './main_page.css';
-import waveSVG from './wave.svg';  // Import the SVG
-import axios from "axios";
 
 function App() {
     return (
         <Router>
-            <div className="min-h-screen">
+            <div className="min-height">
                 <header className="p-4 bg-blue-500 shadow-md">
                     <div className="container mx-auto flex justify-between items-center">
-                        <img src="/path-to-your-logo.png" alt="Logo" className="h-8" />
+                        {/*<img src="/path-to-your-logo.png" alt="Logo" className="h-8" />*/}
                         <nav>
                             <ul className="flex space-x-4">
                                 <li><Link to="/" className="text-white hover:underline">Home</Link></li>
@@ -29,12 +27,12 @@ function App() {
                 </header>
                 <main className="bg-blue-500 container mx-auto flex justify-center items-center h-[75vh] relative">  {/* Adjusted height here */}
                     <div className="absolute bottom-0 left-0 w-full overflow-hidden" style={{ height: '100px' }}>
-                        <img src={waveSVG} alt="Wave SVG" className="w-full" />  {/* Use imported SVG here */}
+
                     </div>
                     <button className="bg-white text-blue-500 p-4 rounded-full shadow-lg hover:bg-blue-600 hover:text-white">
                         Translate Now
                     </button>
-                    <img src="/path-to-hands-image.png" alt="Rotating Hands" className="animate-spin h-24 w-24" />
+                    {/*<img src="none" alt="Rotating Hands" className="animate-spin h-24 w-24" />*/}
                 </main>
                 <section id="about-section" className="container mx-auto py-56 bg-white">
                     <div className="text-center">
