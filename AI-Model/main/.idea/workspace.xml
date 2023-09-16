@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -66,8 +66,6 @@
       <workItem from="1694028466285" duration="1886000" />
       <workItem from="1694850117572" duration="7250000" />
       <workItem from="1694857454511" duration="4000" />
-      <workItem from="1694857571002" duration="132000" />
-      <workItem from="1694857706366" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Updated GitHub">
       <option name="closed" value="true" />
