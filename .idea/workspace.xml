@@ -5,29 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Final.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/about_me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/impact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/sphere.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/vid1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/craco.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/FrontEnd/my-react-app/tailwind.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -53,17 +52,20 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2VSgYyYqKAFFforR2JvSfzAk9WK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gianc/Downloads/Font-End_copy/Font-End copy",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,8 +78,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End\my-app\src" />
       <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End" />
+      <recent name="C:\Users\gianc\Documents\GitHub\Shell-Hacks-2023\Front-End\my-app\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
