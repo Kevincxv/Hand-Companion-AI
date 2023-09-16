@@ -1,12 +1,14 @@
 from flask import Flask, render_template, jsonify, request
+from google.cloud import texttospeech
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 from cvzone.ClassificationModule import Classifier
 import numpy as np
 import math
 import time
-from gtts import gTTS
 import os
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 
 last_error_displayed = {
     "camera_error": 0,
@@ -26,7 +28,7 @@ def can_display_error(error_key):
 
 
 cap = cv2.VideoCapture(0)
-detector = HandDetector(maxHands=1)
+detector = HandDetector(maxHands=2)
 classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 
 offset = 20
@@ -35,7 +37,7 @@ imgSize = 300
 last_print_time = 0
 counter = 0
 last_capture_time = 0
-capture_interval = 4
+capture_interval = 2
 
 labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
           "X", "Y", "Z"]
@@ -65,6 +67,7 @@ captured_chars = []
 while True:
     try:
         success, img = cap.read()
+        img = cv2.flip(img, 1)
         if not success:
             if can_display_error("camera_error"):
                 print("Failed to read frame from camera. Please check your camera connection.")
@@ -110,8 +113,7 @@ while True:
                     print(f"{captured_chars}")
                     last_capture_time = current_time
 
-            cv2.rectangle(imgOutput, (x - offset, y - offset - 50), (x - offset + 90, y - offset - 50 + 50),
-                          (0, 245, 0), cv2.FILLED)
+            cv2.rectangle(imgOutput, (x - offset, y - offset - 50), (x - offset + 90, y - offset - 50 + 50),(0, 245, 0), cv2.FILLED)
             cv2.putText(imgOutput, labels[index], (x, y - 25), cv2.FONT_HERSHEY_COMPLEX, 1.7, (255, 255, 255), 2)
             cv2.rectangle(imgOutput, (x - offset, y - offset), (x + w + offset, y + h + offset), (0, 245, 0), 4)
 
@@ -133,6 +135,22 @@ while True:
 
 if captured_chars:
     tts_text = ' '.join(captured_chars)
-    tts = gTTS(text=tts_text, lang='en')
-    tts.save("captured_audio.mp3")
+    client = texttospeech.TextToSpeechClient()
+    synthesis_input = texttospeech.SynthesisInput(text=tts_text)
+    voice = texttospeech.VoiceSelectionParams(
+        language_code="en-US",
+        # name="en-US-Wavenet-F",
+        ssml_gender=texttospeech.SsmlVoiceGender.MALE
+    )
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.MP3
+    )
+    response = client.synthesize_speech(
+        input=synthesis_input, voice=voice, audio_config=audio_config
+    )
+    with open("captured_audio.mp3", "wb") as out:
+        out.write(response.audio_content)
+        print("Audio content written to file 'captured_audio.mp3'")
+
     os.system("afplay captured_audio.mp3")
+
