@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
-      <change beforePath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shell-Hacks-2023.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Home.html" afterDir="false" />
     </list>
@@ -47,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/gianc/Downloads/Font-End_copy/Font-End copy",
+    "last_opened_file_path": "C:/Users/gianc/Downloads/Translator/Translator",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
