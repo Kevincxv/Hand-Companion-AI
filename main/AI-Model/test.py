@@ -23,7 +23,7 @@ frame_to_stream = np.zeros((720, 1280, 3), dtype=np.uint8)
 
 thread = None
 labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
-          "W", "X", "Y", "Z"]
+          "W", "X", "Y"]
 
 last_error_displayed = {
     "camera_error": 0,
@@ -48,7 +48,7 @@ def index():
     if thread is None:
         thread = Thread(target=run_ai)
         thread.start()
-    return render_template('tran.html')
+    return render_template('translator.html')
 
 
 @app.route('/video')
@@ -140,8 +140,8 @@ def run_ai():
 
                     cv2.rectangle(img, (x - offset, y - offset - 50), (x - offset + 90, y - offset - 50 + 50), (0, 245, 0),
                                   cv2.FILLED)
-                    cv2.putText(img, labels[index], (x, y - 25), cv2.FONT_HERSHEY_SIMPLEX, 1.7, (255, 255, 255), 2,
-                                cv2.LINE_AA)
+                    # cv2.putText(img, labels[index], (x, y - 25), cv2.FONT_HERSHEY_SIMPLEX, 1.7, (255, 255, 255), 2,
+                    #             cv2.LINE_AA)
                     cv2.rectangle(img, (x - offset, y - offset), (x + w + offset, y + h + offset), (0, 245, 0), 4)
 
                     global frame_to_stream
