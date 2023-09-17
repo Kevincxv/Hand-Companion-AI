@@ -15,7 +15,7 @@ togglePassword.addEventListener("click", () => {
 
 const dynamicTxt = document.querySelector(".dynamic-txt");
 const blinkingCursor = document.querySelector(".blinking-cursor");
-const text = ["UniFace is cutting-edge technology that specializes in developing highly advanced facial recognition technology for secure access control at events and restricted locations. With UniFace's advanced AI technology, you can be sure that only authorized individuals gain entry to your event or location, thereby eliminating the risk of unauthorized access and ensuring the safety of your guests and staff."];
+const text = ["Hand Companion is a cutting-edge technology designed to bridge the communication gap by translating sign language into text and speech. With Hand Companion's advanced AI algorithms, individuals can effortlessly communicate their thoughts and feelings through sign language, ensuring that everyone, regardless of their hearing abilities, is understood. This innovative solution not only fosters inclusivity but also empowers the deaf and hard-of-hearing community to engage in everyday conversations seamlessly."];
 
 let maxWidth = 0;
 text.forEach(line => {

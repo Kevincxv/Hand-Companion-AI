@@ -10,46 +10,59 @@
             border: none;
             overflow: hidden;
             margin: -1px;
+            width: 100%; /* Set iframe width to 100% */
         }
+
         body {
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            background: url('Images/background-waves.svg') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire viewport */
         }
+
         section {
             margin: 0;
             padding: 0;
             border: none;
+            width: 100%; /* Ensure sections span the full width */
         }
+
         section + section {
-          margin-top: -2px;
-      }
+            margin-top: -2px;
+        }
+
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%; /* Set container width to 100% */
         }
-      
+
+        /* Make demo.html and impact.html iframes transparent */
+        .transparent-bg {
+            background-color: transparent !important;
+        }
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <section>
-            <iframe src="Home.html" width="1475px" height="900px" scrolling="no"></iframe>
-        </section>
-        <section>
-            <iframe src="about_me.html" width="1475px" height="700px" scrolling="no"></iframe>
-        </section>
-        <section>
-            <iframe src="impact.html" width="1475px" height="900px" scrolling="no"></iframe>
-        </section>
-        <section>
-            <iframe src="demo.html" width="1475px" height="850px" scrolling="no"></iframe>
-        </section>
-        <section>
-            <iframe src="team.html" width="1475px" height="1450px" scrolling="no"></iframe>
-        </section>
-    </div>
+<div class="container">
+    <section>
+        <iframe src="Home.html" height="900px" scrolling="no"></iframe>
+    </section>
+    <section>
+        <iframe src="about_me.html" height="700px" scrolling="no"></iframe>
+    </section>
+    <section>
+        <iframe src="impact.html" height="1850px" scrolling="no"></iframe>
+    </section>
+    <section>
+        <iframe src="demo.html" height="850px" scrolling="no"></iframe>
+    </section>
+    <section>
+        <iframe src="team.html" height="1450px" scrolling="no"></iframe>
+    </section>
+</div>
 </body>
 </html>
-    

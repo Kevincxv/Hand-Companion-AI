@@ -9,3 +9,7 @@ webcam.start()
     .catch(err => {
         console.log(err);
     });
+
+function home () {
+    fetch()
+}

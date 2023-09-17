@@ -1,38 +1,36 @@
-
 document.addEventListener('DOMContentLoaded', function () {
   const sphereContainer = document.getElementById('sphereContainer');
   const tags = [
-    'Security',
+    'Communication',
     'Solutions',
     'Businesses',
     'Educational',
     'Institutions',
-    'organizers',
-    'Safety',
-    'Authorized',
-    'Attendees',
-    'Tailored',
-    'Plans',
-    'Advanced',
-    
+    'Organizers',
+    'Nonverbal',
+    'Finger movements',
+    'Visual language',
+    'Alphabet',
+    'Hearing-impaired',
+    'Interpreter',
     'Dedicated',
-    'Cater',
-    'Secure',
-    'Authentication',
+    'Strong',
+    'Willful',
+    'Unique',
     'Identity',
-    'Access',
-    'Surveillance',
-    'Security',
-    'Threat detection',
+    'Creative',
+    'Outstanding',
+    'Loving',
+    'Caring',
   ];
 
   const options = {
     radius: 250,
     maxSpeed: 15.0,
     minSpeed: 2.0,
-    
     direction: 135,
     keep: true,
+    color: '#000000'  // Set the color of the words in the sphere to black
   };
 
   TagCloud(sphereContainer, tags, options);
@@ -48,4 +46,3 @@ document.addEventListener('DOMContentLoaded', function () {
     prevScrollpos = currentScrollPos;
   };
 });
-
