@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/AI-Model/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/AI-Model/templates/temp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/AI-Model/templates/translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/AI-Model/templates/translator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/AI-Model/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/AI-Model/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +81,17 @@
       <updated>1694834947343</updated>
       <workItem from="1694834949588" duration="12934000" />
       <workItem from="1694896665504" duration="5205000" />
-      <workItem from="1694958358631" duration="4361000" />
+      <workItem from="1694958358631" duration="4675000" />
     </task>
+    <task id="LOCAL-00001" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1694963301902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694963301902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
