@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,7 +97,7 @@
       <updated>1694834947343</updated>
       <workItem from="1694834949588" duration="12934000" />
       <workItem from="1694896665504" duration="5205000" />
-      <workItem from="1694958358631" duration="5012000" />
+      <workItem from="1694958358631" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="Prototype">
       <option name="closed" value="true" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694963510502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1694963730026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694963730026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

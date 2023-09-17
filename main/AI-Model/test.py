@@ -48,7 +48,7 @@ def index():
     if thread is None:
         thread = Thread(target=run_ai)
         thread.start()
-    return render_template('translator.html')
+    return render_template('tran.html')
 
 
 @app.route('/video')
