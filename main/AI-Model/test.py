@@ -47,7 +47,7 @@ def index():
     if thread is None:
         thread = Thread(target=run_ai)
         thread.start()
-    return render_template('translator.html')
+    return render_template('temxp.html')
 
 
 @app.route('/video')
@@ -82,7 +82,7 @@ def generate_and_get_audio():
 
 
 def gen_frames():
-    global frame_to_stream
+    # global frame_to_stream
     while True:
         if frame_to_stream is not None:
             ret, buffer = cv2.imencode('.jpg', frame_to_stream)

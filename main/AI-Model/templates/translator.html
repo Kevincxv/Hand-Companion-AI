@@ -64,15 +64,16 @@
                 },
                 body: 'key=q'
             })
-            .then(response => response.json())
+            .then(response => response.text())  // Change this line
             .then(data => {
-                if (data.status === "Audio generated successfully") {
+                if (data === "Server shutting down...") {  // Change this line
                     document.getElementById('audio-source').src = '/audio';
                     document.getElementById('audio-player').load(); // Reload the audio player
                     document.getElementById('audio-player').play(); // Play the new audio
                 }
             });
         }
+
 
     </script>
 </body>
