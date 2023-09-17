@@ -24,6 +24,7 @@ frame_to_stream = np.zeros((720, 1280, 3), dtype=np.uint8)
 thread = None
 labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
           "W", "X", "Y", "Z"]
+
 last_error_displayed = {
     "camera_error": 0,
     "aspect_ratio_error": 0,

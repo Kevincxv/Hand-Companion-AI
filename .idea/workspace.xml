@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype" />
+    <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
+      <change beforePath="$PROJECT_DIR$/main/AI-Model/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/AI-Model/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kevincxv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6cb04f89-dc2e-4041-9dd2-63035929c9d1" />
+        <option name="url" value="https://github.com/Kevincxv/Shell-Hacks-2023.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +97,7 @@
       <updated>1694834947343</updated>
       <workItem from="1694834949588" duration="12934000" />
       <workItem from="1694896665504" duration="5205000" />
-      <workItem from="1694958358631" duration="4675000" />
+      <workItem from="1694958358631" duration="5012000" />
     </task>
     <task id="LOCAL-00001" summary="Prototype">
       <option name="closed" value="true" />
@@ -91,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694963301902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1694963510502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694963510502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +126,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Shell_Hacks_2023$test.coverage" NAME="test Coverage Results" MODIFIED="1694962925721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/AI-Model" />
+    <SUITE FILE_PATH="coverage/Shell_Hacks_2023$test.coverage" NAME="test Coverage Results" MODIFIED="1694963656231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/AI-Model" />
   </component>
 </project>
