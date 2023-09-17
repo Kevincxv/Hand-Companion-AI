@@ -38,7 +38,6 @@ body {
 .left-image, .right-image {
     width: 200px;
     height: 200px;
-    border: 2px solid #000;
     margin: 10px;
     object-fit: cover;
 }

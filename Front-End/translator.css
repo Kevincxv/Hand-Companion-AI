@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -16,6 +17,7 @@ h1 {
 }
 
 .container {
+
     display: flex;
     width: 100%;
     max-width: 1190px; /* Increased the max-width */

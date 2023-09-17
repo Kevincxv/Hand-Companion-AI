@@ -6,6 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combined</title>
     <style>
+        .login-btn {
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #0D47A1;
+        }
+        header {
+            top: 0; /* set the top position */
+            left: 0; /* set the left position */
+            right: 0; /* set the right position */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(to bottom right , #ffffff , #a6c1ee);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            transition: opacity 0.5s; /* add a transition effect */
+            opacity: 1; /* set initial opacity to fully visible */
+        }
+
+        header img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header li {
+            margin: 15px;
+            font-size: 28px;
+            font-weight: bolder;
+        }
+
+        header a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #2196F3;
+        }
         iframe {
             border: none;
             overflow: hidden;
@@ -17,8 +75,6 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-            background: url('Images/background-waves.svg') no-repeat center center fixed;
-            background-size: cover; /* Cover the entire viewport */
         }
 
         section {
@@ -38,30 +94,39 @@
             align-items: center;
             width: 100%; /* Set container width to 100% */
         }
-
-        /* Make demo.html and impact.html iframes transparent */
-        .transparent-bg {
-            background-color: transparent !important;
+        html {
+            scroll-behavior: smooth;
         }
-
     </style>
 </head>
 <body>
+<header>
+    <img src="Images/Logo.png" alt="Logo">
+    <ul>
+        <li><a href="#Home"><span>Home</span></a></li>
+        <li><a href="#about_me"><span>About Us</span></a></li>
+        <li><a href="#impact"><span>Impact</span></a></li>
+        <li><a href="#demo"><span>Demo</span></a></li>
+        <li><a href="#team"><span>Meet The Team</span></a></li>
+    </ul>
+
+    <a href="login.html" class="login-link"><button class="login-btn">Login</button></a>
+</header>
 <div class="container">
     <section>
-        <iframe src="Home.html" height="900px" scrolling="no"></iframe>
+        <iframe id="Home" src="Home.html" height="900px" scrolling="no"></iframe>
     </section>
     <section>
-        <iframe src="about_me.html" height="700px" scrolling="no"></iframe>
+        <iframe id="about_me" src="about_me.html" height="700px" scrolling="no"></iframe>
     </section>
     <section>
-        <iframe src="impact.html" height="1850px" scrolling="no"></iframe>
+        <iframe id="impact" src="impact.html" height="1850px" scrolling="no"></iframe>
     </section>
     <section>
-        <iframe src="demo.html" height="850px" scrolling="no"></iframe>
+        <iframe id="demo" src="demo.html" height="850px" scrolling="no"></iframe>
     </section>
     <section>
-        <iframe src="team.html" height="1450px" scrolling="no"></iframe>
+        <iframe id="team" src="team.html" height="1450px" scrolling="no"></iframe>
     </section>
 </div>
 </body>

@@ -5,32 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
-      <change afterPath="$PROJECT_DIR$/Front-End/Images/PFP3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/Images/about-waves.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/Images/layered-waves-haikei.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/Images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/impact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/impact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/AI_Brain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/ASL_Hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/ASL_Megaphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/ASL_Versatile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/ASL_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/versatile_als.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Final.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Final.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Images/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Images/PFP 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Images/PFP 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Images/PFP 5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/impact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/impact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/impact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/impact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/translator.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/translator.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -16,6 +16,21 @@
   <link href='https://fonts.googleapis.com/css?family=Nano+Sans' rel='stylesheet'>
 
   <style>
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: -50px; /* Overlap effect */
+      opacity: 0; /* Initially set to invisible */
+      transform: translateY(50px); /* Initial position for animation */
+      transition: opacity 0.5s, transform 0.5s; /* Animation effect */
+    }
+
+    /* First card doesn't need negative margin */
+    .about-us.card {
+      margin-top: 0;
+    }
     body {
       font-family: 'Poppins' , sans-serif;
       background: linear-gradient(to bottom, #A4C4FF, #a4b9ff, #a4acff);
@@ -123,9 +138,9 @@ ul{
 
 </header>
 
-    <div class="about-us">
+    <div class="main-container">
         <p>
-          <div class="about-us">
+          <div class="card about-us">
             <h2>About Us</h2>
             <p>
               Hand Companion is an innovative AI technology designed to enhance communication by utilizing
@@ -135,7 +150,7 @@ ul{
             </p>
           </div>
 
-          <div class="what-is-uniface">
+          <div class="card what-is-uniface">
             <h2>What is Hand Companion</h2>
             <ul>
               <li>Natural-sounding speech</li>
@@ -145,19 +160,37 @@ ul{
             </ul>
           </div>
 
-  </div>
+      </div>
+    <div class="main-wrapper">
+      <main>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="sphere-container" id="sphereContainer"></div>
+      </main>
+    </div>
 
+        <script>
+          // Intersection Observer to detect when the cards are in the viewport
+          const cards = document.querySelectorAll('.card');
+            const options = {
+              root: null,
+              rootMargin: '0px',
+              threshold: 0.1
+            };
+            const observer = new IntersectionObserver((entries, observer) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }
+          });
+        }, options);
 
-  </header>
-  <div class="main-wrapper">
-  <main>
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-  <div class="sphere-container" id="sphereContainer"></div>
-  </main>
-  </div>
-  </body>
-  </html>
+        cards.forEach(card => {
+          observer.observe(card);
+        });
+  </script>
+</body>
+</html>
           
 
 
