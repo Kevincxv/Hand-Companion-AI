@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff28a41-3202-412f-b458-4919aba2d6ee" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/PFP4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/circle-scatter-haikei (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/circle-scatter-haikei (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/circle-scatter-haikei.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/Images/tech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Final.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Final.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/translator.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/translator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/translator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
