@@ -3,109 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniFace | Demo</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            background: linear-gradient(to bottom, #4ea0ff,
-            #2e93fe,
-            #3f95f8);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            font-family: 'Poppins' , sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        p {
-            font-size: 17px;
-        }
-
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        .outer-container {
-            height: 100%;
-            padding: 0;
-        }
-
-        .inner-container {
-            height: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .left-side {
-            flex: 1;
-            padding: 20px;
-            box-sizing: border-box;
-            max-width: 40%;
-            margin-left: 75px;
-        
-        }
-		p.left-side{
-			max-width: 10%;
-            margin-left: 10;
-		}
-
-        .right-side {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-        
-        .video-container {
-            width: 53%;
-            height: 53%;
-            border-radius: 15px;
-            overflow: hidden;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-10%, -50%);
-        }
-
-        video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        p{
-            color:rgb(242, 235, 235);
-        }
-    </style>
+    <title>ASL Hand Signs AI Software Features</title>
+    <link rel="stylesheet" href="demo.css">
 </head>
 <body>
-    <div class="outer-container">
-        <div class="inner-container">
-            <div class="left-side">
-                <h1>Welcome to UniFace</h1>
-                <hr>
-                <p>UniFace is an advanced facial recognition AI system designed for secure event access control. Our system provides a seamless and convenient way for event organizers to manage access control for their events, while ensuring the highest level of security for their attendees.</p>
-            </div>
-            <div class="right-side">
-                <div class="video-container">
-                    <video controls autoplay loop>
-                        <source src="vid1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </div>
+<div class="container">
+    <!-- Image Placeholder -->
+    <div class="image-placeholder" id="imageBox">
+        <img src="Images/tech.png" class="pop-image">
     </div>
+
+
+    <!-- Software Features -->
+    <div class="features-content">
+        <h1 style="margin-left: 200px;">Software Features</h1>
+        <ul class="features-list">
+            <li>Real-time ASL hand sign recognition</li>
+            <li>Integration with voice output for communication</li>
+            <li>Training mode for learning ASL signs</li>
+            <li>Customizable AI sensitivity settings</li>
+            <li>Database of common ASL phrases and responses</li>
+            <li>Compatibility with multiple camera sources</li>
+            <li>User-friendly interface and tutorials</li>
+            <li>Offline mode for uninterrupted usage</li>
+            <li>Regular software updates & sign database expansion</li>
+        </ul>
+    </div>
+</div>
+<script src="demo.js"></script>
 </body>
 </html>
-
-				 
